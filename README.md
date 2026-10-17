@@ -2,7 +2,7 @@
 <h1 align="center">DownSample</h1>
 <p align="center"><b>Shrink any video or audio. GPU-fast, no FFmpeg.</b></p>
 <p align="center">Video & Audio Shrinker · Windows 10/11 · x64 · ~4 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/DownSample/releases/latest"><b>⬇ Download DownSample 1.0.2</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/downsample/">tapatch.com/tools/downsample</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/DownSample/releases/latest"><b>⬇ Download DownSample 1.0.3</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/downsample/">tapatch.com/tools/downsample</a></p>
 
 <p align="center">
 <img src="screenshots/downsample-v1.0.0-queue.png" alt="DownSample v1.0.0 — Batch queue"><br>
@@ -41,18 +41,16 @@ Try your settings on one file first and see the result before running the whole 
 
 - Windows 10/11 only. Encodes the formats Windows Media Foundation supports (H.264 / HEVC video, AAC audio in MP4/MOV and common containers); exotic or patent-encumbered formats without a Media Foundation codec aren't covered. Hardware-encode quality depends on your GPU's encoder.
 
-## What's new in 1.0.2
+## What's new in 1.0.3
 
-- Now in 10 languages: English, Chinese (Simplified), Russian, Spanish, Portuguese, German, Japanese, French, Polish and Korean
-- Starts in your Windows language (English if yours isn't one of the 10). The first launch asks which language you want, and you can switch any time inside the app
-- The installer comes in the same 10 languages
-- The Terms of Service are shown translated for convenience, with the official English (US) text, the only binding version, right below
+- Now runs on any Windows 10 or 11 PC, even a fresh install: it no longer needs the Microsoft Visual C++ Redistributable (no more "VCRUNTIME140.dll was not found")
+- Nothing else changed
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/DownSample/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **DownSample-Setup-1.0.2.exe** from the [latest release](https://github.com/tapatchUSA/DownSample/releases/latest) or from [tapatch.com](https://tapatch.com/tools/downsample/).
+1. Download **DownSample-Setup-1.0.3.exe** from the [latest release](https://github.com/tapatchUSA/DownSample/releases/latest) or from [tapatch.com](https://tapatch.com/tools/downsample/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -69,17 +67,18 @@ scoop install tapatch/downsample
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.3](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.3) | 2026-10-17 | [DownSample-Setup-1.0.3.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.3/DownSample-Setup-1.0.3.exe) | [1 / 70](https://www.virustotal.com/gui/file/6db8b47042761b2b195e3d9f177d03a40a196d1cdc9a10a75645110cde3525b6/detection) | `6db8b47042761b2b…` |
 | [1.0.2](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.2) | 2026-10-01 | [DownSample-Setup-1.0.2.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.2/DownSample-Setup-1.0.2.exe) | [1 / 70](https://www.virustotal.com/gui/file/ba0d3fc38c564ae9ed2074a2cba16bd910b012edf9a3ddde53cd13de067c8eeb/detection) | `ba0d3fc38c564ae9…` |
 | [1.0.1](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.1) | 2026-09-30 | [DownSample-Setup-1.0.1.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.1/DownSample-Setup-1.0.1.exe) | [2 / 70](https://www.virustotal.com/gui/file/d51c6dc3eb2278dea16fc34a3454055b559465e64f51d20058e4833a658c2f8f/detection) | `d51c6dc3eb2278de…` |
 | [1.0.0](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.0) | 2026-09-16 | [DownSample-Setup-1.0.0.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.0/DownSample-Setup-1.0.0.exe) | [1 / 71](https://www.virustotal.com/gui/file/a1fb71809ef00a69384ff226d37a0e8ce135b14cea8ab3ecbd3d79029567dbf1/detection) | `a1fb71809ef00a69…` |
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. DownSample 1.0.2: **1 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/ba0d3fc38c564ae9ed2074a2cba16bd910b012edf9a3ddde53cd13de067c8eeb/detection)
+Every installer is scanned on VirusTotal before release. DownSample 1.0.3: **1 / 70** engines flag it · [view report](https://www.virustotal.com/gui/file/6db8b47042761b2b195e3d9f177d03a40a196d1cdc9a10a75645110cde3525b6/detection)
 
 **SHA-256**
 ```
-ba0d3fc38c564ae9ed2074a2cba16bd910b012edf9a3ddde53cd13de067c8eeb
+6db8b47042761b2b195e3d9f177d03a40a196d1cdc9a10a75645110cde3525b6
 ```
 
 ## Built with
