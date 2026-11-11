@@ -2,7 +2,7 @@
 <h1 align="center">DownSample</h1>
 <p align="center"><b>Shrink any video or audio. GPU-fast, no FFmpeg.</b></p>
 <p align="center">Video & Audio Shrinker · Windows 10/11 · x64 · ~4 MB · Free for personal use</p>
-<p align="center"><a href="https://github.com/tapatchUSA/DownSample/releases/latest"><b>⬇ Download DownSample 1.0.6</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/downsample/">tapatch.com/tools/downsample</a></p>
+<p align="center"><a href="https://github.com/tapatchUSA/DownSample/releases/latest"><b>⬇ Download DownSample 1.0.7</b></a> &nbsp;·&nbsp; <a href="https://tapatch.com/tools/downsample/">tapatch.com/tools/downsample</a></p>
 
 <p align="center">
 <img src="screenshots/downsample-v1.0.0-queue.png" alt="DownSample v1.0.0 — Batch queue"><br>
@@ -41,15 +41,16 @@ Try your settings on one file first and see the result before running the whole 
 
 - Windows 10/11 only. Encodes the formats Windows Media Foundation supports (H.264 / HEVC video, AAC audio in MP4/MOV and common containers); exotic or patent-encumbered formats without a Media Foundation codec aren't covered. Hardware-encode quality depends on your GPU's encoder.
 
-## What's new in 1.0.6
+## What's new in 1.0.7
 
-- The dot shown while a file is shrinking no longer appears as an empty box
+- Now opens in virtual machines, Remote Desktop and on PCs without a graphics driver: it switches to Direct3D 12 when OpenGL doesn't work
+- If the window still can't open, a message says why instead of the app closing without a word
 
 Release notes for every version are on the [Releases](https://github.com/tapatchUSA/DownSample/releases) page and in [release-notes/](release-notes/).
 
 ## Install
 
-1. Download **DownSample-Setup-1.0.6.exe** from the [latest release](https://github.com/tapatchUSA/DownSample/releases/latest) or from [tapatch.com](https://tapatch.com/tools/downsample/).
+1. Download **DownSample-Setup-1.0.7.exe** from the [latest release](https://github.com/tapatchUSA/DownSample/releases/latest) or from [tapatch.com](https://tapatch.com/tools/downsample/).
 2. Run it. The installer and the app come in 10 languages.
 3. Accept the Terms of Service on first launch.
 
@@ -66,6 +67,7 @@ scoop install tapatch/downsample
 
 | Version | Released | Installer | VirusTotal | SHA-256 |
 |---|---|---|---|---|
+| [1.0.7](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.7) | 2026-11-11 | [DownSample-Setup-1.0.7.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.7/DownSample-Setup-1.0.7.exe) | [1 / 71](https://www.virustotal.com/gui/file/87281f6fc9f9951f0b1e8662c464a4b5ec75e23cadb7322ecb5186ac9e35977d/detection) | `87281f6fc9f9951f…` |
 | [1.0.6](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.6) | 2026-11-07 | [DownSample-Setup-1.0.6.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.6/DownSample-Setup-1.0.6.exe) | [1 / 71](https://www.virustotal.com/gui/file/d30e633dfb1c43f886d4d055ca30de28fcd2ad8b3233f9d53678d89e9674bebd/detection) | `d30e633dfb1c43f8…` |
 | [1.0.5](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.5) | 2026-11-05 | [DownSample-Setup-1.0.5.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.5/DownSample-Setup-1.0.5.exe) | [1 / 71](https://www.virustotal.com/gui/file/e394f5e51794e88d4170735af461ad5c67979443849c1105ee581b5f7b23250e/detection) | `e394f5e51794e88d…` |
 | [1.0.4](https://github.com/tapatchUSA/DownSample/releases/tag/v1.0.4) | 2026-10-18 | [DownSample-Setup-1.0.4.exe](https://github.com/tapatchUSA/DownSample/releases/download/v1.0.4/DownSample-Setup-1.0.4.exe) | [0 / 70](https://www.virustotal.com/gui/file/8b484b062e3ddaab2ea73cd4da2ae0952f46de229a12a668808ba4df07c4a652/detection) | `8b484b062e3ddaab…` |
@@ -76,11 +78,11 @@ scoop install tapatch/downsample
 
 ## Security
 
-Every installer is scanned on VirusTotal before release. DownSample 1.0.6: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/d30e633dfb1c43f886d4d055ca30de28fcd2ad8b3233f9d53678d89e9674bebd/detection)
+Every installer is scanned on VirusTotal before release. DownSample 1.0.7: **1 / 71** engines flag it · [view report](https://www.virustotal.com/gui/file/87281f6fc9f9951f0b1e8662c464a4b5ec75e23cadb7322ecb5186ac9e35977d/detection)
 
 **SHA-256**
 ```
-d30e633dfb1c43f886d4d055ca30de28fcd2ad8b3233f9d53678d89e9674bebd
+87281f6fc9f9951f0b1e8662c464a4b5ec75e23cadb7322ecb5186ac9e35977d
 ```
 
 ## Built with
