@@ -15,6 +15,8 @@
 
 DownSample shrinks videos and audio to save disk space — without FFmpeg and without uploading anything. It drives Windows Media Foundation — the OS's own licensed H.264 / AAC — and encodes on your GPU's hardware blocks (NVIDIA, AMD, or Intel iGPU) via Direct3D 11. Drop in files or a whole folder, pick a target height (4K down to 240p or custom), aspect ratio, quality, and audio bitrate, then shrink the entire queue in parallel across every CPU and GPU you have. Preview your settings on a single file first, keep or replace originals, and add a name suffix. No bundled codec, no network, no telemetry — your media never leaves the machine.
 
+[![Watch on YouTube](https://img.youtube.com/vi/s6ncZLvSq0k/hqdefault.jpg)](https://www.youtube.com/watch?v=s6ncZLvSq0k)
+
 ## Features
 
 A full batch transcoder in one tiny binary. Here are the highlights.
